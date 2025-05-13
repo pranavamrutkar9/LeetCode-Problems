@@ -9,8 +9,6 @@ public:
             sum += n%10;
             n/=10;
         }
-        int diff;
-        diff = product - sum;
-        return diff;
+        return product - sum;
     }
 };
